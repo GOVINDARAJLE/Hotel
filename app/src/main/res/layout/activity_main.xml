@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#1a1a1a">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/rush"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        />
+
+    <CheckBox
+        android:id="@+id/pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="25dp"
+        android:text="Pizza"
+
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="250dp"
+        />
+
+    <CheckBox
+        android:id="@+id/tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="Tea"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="250dp"/>
+    <CheckBox
+        android:id="@+id/coffe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Coffe"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_below="@+id/pizza"
+        android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:id="@+id/panipuri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="Panipuri"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_below="@+id/tea"
+        android:layout_marginTop="10dp"/>
+
+
+    <CheckBox
+        android:id="@+id/samosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:text="Samosa"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="250dp"/>
+    <CheckBox
+        android:id="@+id/dosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:text="Dosa"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_below="@+id/samosa"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Your Order"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/panipuri"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:layout_marginRight="20dp"
+
+        android:background="@drawable/background"
+        />
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Roll NO : 30 "
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
